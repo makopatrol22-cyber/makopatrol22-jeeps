@@ -1,0 +1,61 @@
+/* Jeep Rugged Theme */
+:root {
+  --jeep-orange: #FF4500;
+  --jeep-green: #228B22;
+  --dark-bg: #1a1a1a;
+  --gray-bg: #333;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--dark-bg);
+  color: #fff;
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(255,69,0,0.3);
+}
+
+.btn-warning {
+  background-color: var(--jeep-orange);
+  border-color: var(--jeep-orange);
+}
+
+.btn-warning:hover {
+  background-color: #e03e00;
+  border-color: #e03e00;
+}
+
+footer a {
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: var(--jeep-orange) !important;
+}
+
+section {
+  padding-top: 80px; /* Navbar offset */
+}
